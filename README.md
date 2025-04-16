@@ -14,6 +14,8 @@ to demonstrate specific technologies and their practical applications.
     - [Node.js](#nodejs)
         - [Sockets](#sockets)
     - [React/Next.Js](React-Next Js/FE.md)
+    - [React Native](#react-native)
+        - [Live Activity](#live-activity)
 - [How to Extend](#how-to-extend)
 
 ## Examples
@@ -23,6 +25,12 @@ to demonstrate specific technologies and their practical applications.
 #### [Sockets](Node.js/sockets)
 
 A whole NestJS module with entities,UWebsocketAdapter and gateway(Redis used as a transport).
+
+### React Native
+
+#### [Live Activity](React-Native/Live-Activity)
+
+A React Native example demonstrating iOS Live Activity implementation, showcasing real-time updates and dynamic island support on iOS devices.
 
 ## How to Extend
 
