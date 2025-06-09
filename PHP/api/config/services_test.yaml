@@ -1,0 +1,11 @@
+imports:
+  - { resource: services/test_fixtures.yaml }
+
+services:
+  test.mailer.logger:
+    class: Symfony\Component\Mailer\EventListener\MessageLoggerListener
+    tags: [kernel.event_subscriber]
+    public: true
+
+  App\Service\OpenApi\GroqService:
+    class: App\Tests\Mock\GroqServiceMock
